@@ -1,0 +1,509 @@
+*{
+	
+	padding:0px;
+	margin:0px;
+	box-sizing:border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+header{
+	
+	padding:15px 0px;
+position:fixed;
+width:100%;
+z-index:9999;	
+background:black;
+
+}
+
+	header nav ul {
+		
+		list-style:none;
+		text-align:center
+		
+	}
+	header nav ul li {
+		display:inline;
+	}
+	header nav ul li a {
+		
+		text-decoration:none;
+		color:white; 
+		font-size:1.2em;
+		padding:2px 10px;
+		font-font-family:Arial;
+
+		transition:all 2s ease-in-out;
+	}
+	   header nav ul li a:hover {
+		
+		color:blue;
+		text-transform:uppercase;
+		letter-spacing:2px;
+	}
+
+section{
+	
+	border:1px solid black;
+	width:100%;
+	height:500px;
+	padding-top:60px;
+	text-align:center;
+	width:100%;
+	
+}
+.banner{
+	display: flex;
+    height: 600px;
+    background-image: url(karol-smoczynski-BsNhk7qoOuM-unsplash.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    background-position-y: 58%;
+	
+}
+
+.banner img {
+	
+	width:100%;
+	height:90%;
+	object-fit:cover;
+	background-attachment:fixed;
+	background:black;
+	border-radius:10px;
+	backdrop-filter:blend-mode;
+	    backdrop-filter: brightness(0.1);
+}
+#sobre{
+	background:black;
+}
+.flex{
+	
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+	
+}
+
+
+
+/*animation */
+
+[data-anima]{
+	
+	opacity:0;
+	transition:.5s;
+}
+ [data-anima="esquerda"]{
+	 
+	 transform:translate3d(-50px,0,0);
+ }
+  [data-anima="direita"]{
+	 
+	 transform:translate3d(50px,0,0);
+ }    
+ 
+ [data-anima].animacao{
+	 
+	 opacity:1;
+	 transform:translate3d(0px);
+ }
+
+.text1{
+	
+    width: 54%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    height: 100%;
+    align-items: center;
+
+}
+.text1 h1 {
+    font-size: 5rem;
+    display: block;
+    color: white;
+    backdrop-filter: brightness(0.3);
+}
+
+.texth1sub button{
+	
+
+	padding:9px;
+	color:orange;
+	background:black;
+	border-radius:10px;
+	color:white;
+	margin-top:3%;
+	border:1px solid white;
+}
+
+
+.text1 h1  {
+
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    height: 209px;
+	margin-bottom:3%;
+}
+
+.span1{
+	color:blue;
+	background:black;
+    display: inline; /* Garante que os spans se comportem como inline */
+
+}
+
+.span2{
+	color:white;
+	background:blue;
+	    display: inline; /* Garante que os spans se comportem como inline */
+
+}
+
+.span3{
+	color:black ;
+	background:white;
+	    display: inline; /* Garante que os spans se comportem como inline */
+
+}
+span{
+	margin:0px;
+	padding:0px;
+}
+
+.btn1{	
+	color:white;
+	     background: linear-gradient(120deg, #003DA5 50%, #FFFFFF 50%, #003DA5 50%, #000000 50%);
+	padding:11px;
+	text-decoration:none;
+	margin-top:10%;
+	font-size:2rem;
+	letter-spacing:5px;
+	position:relative;
+	overflow:hidden; 
+	height:5%;
+	width:300px;
+}
+.link1{
+	overflow:hidden;
+}
+
+
+.btn1 span:nth-child(1) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to right,blue,white);
+	animation:anima1 2s linear infinite;
+}
+
+
+
+
+
+
+@keyframes anima1{
+	
+	
+	0%{
+		transform:translateX(-100%) ;
+	}
+	100%{
+		transform:translateX(100%);
+	}
+	
+}
+
+
+
+.btn1 span:nth-child(2) {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(to bottom,blue,white);
+	animation:anima2 2s linear infinite;
+}
+
+@keyframes anima2 {
+	
+	0%{
+		transform:translateY(-100%)
+	}
+	
+	100%{
+		transform:tranlateY(100%)
+	}
+	
+}
+
+
+.btn1 span:nth-child(3) {
+    position: absolute;
+    bottom :0;
+    right: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(to bottom,blue,white);
+		animation:anima3 2s linear infinite;
+
+
+}
+
+
+
+@keyframes anima3 {
+	
+	0%{
+		transform:translateX(100%)
+	}
+	
+	100%{
+		transform:tranlateX(-100%)
+	}
+	
+}
+
+.btn1 span:nth-child(4) {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 3px;
+    height: 100%;
+    background: linear-gradient(to bottom,blue,white);
+	animation:anima4 2s linear infinite;
+}
+
+@keyframes anima4 {
+	
+	0%{
+		transform:translateY(100%)
+	}
+	
+	100%{
+		transform:tranlateY(-100%)
+	}
+	
+}
+
+.btn1pai{
+	
+	display:flex;
+	justify-content:center;
+}
+.bmwtexto{
+background: #080826;
+    color: white;
+    width: 50%;
+    padding: 12px;
+    border-radius: 14px;
+    font-size: 25px;
+    height: 73%;
+    text-align: start;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    align-self: center;
+
+
+}
+.logo{
+
+		width:100%;
+		height:100%;
+}
+
+nav a.active {
+    background: #007BFF; /* Cor de fundo para o link ativo */
+    color: white; /* Cor do texto para o link ativo */
+}.slider {
+    position: relative;
+    max-width: 600px; /* Largura máxima do slider */
+    margin: auto;
+	
+    overflow: hidden; /* Oculta o conteúdo que está fora do slider */
+}
+
+.slides {
+    display: flex; /* Alinha os slides em linha */
+    transition: transform 0.5s ease; /* Transição suave ao mudar de slide */
+}
+
+.slide {
+    min-width: 100%; /* Cada slide ocupa 100% da largura do slider */
+}
+
+.slide img {
+    width: 100%; /* Imagem ocupa toda a largura do slide */
+}
+
+.prev {
+    left: 10px;
+	    top: 89%;
+	border:1px solid black;
+}
+
+.next {
+    right: 10px;
+	    top: 89%;
+	border:1px solid black;
+}
+
+#canal .slider{
+
+    background:blue;
+    height: 83%;
+    width: 381px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+	 #canal{
+		 background:#5e3af2;
+	 }
+
+#sectionmoto{
+		  
+    height: 100%;
+    width: 30%;
+	    margin-left: 11%;
+    display: flex;
+	
+}
+#garanta{
+
+
+    width: 50%;
+ 
+    justify-content: center;
+    align-items: normal;
+    font-size: 3rem;
+    padding: 18px;
+	text-align:center;
+	display:flex;
+}
+	   #btn3{
+		   
+		   padding:7px;
+		   background:black;
+		   color:white;
+		   border:none;
+		   
+		   border-radius:10px;
+	   }
+	   
+	   .prev{
+		       position: absolute;
+    top: 90%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+	
+	border-radius:10px;
+	   }
+	   
+	   	   .next{
+		       position: absolute;
+    top: 90%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+	border-radius:10px;
+	   }
+	   
+	   #garanta{
+		   
+		   margin-top:9%;
+		   margin-right:9%;
+	   }
+	   #garanta h1,p {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+	   }
+	   
+	   #garanta h1 {
+		   background:black;
+		   color:white;
+	   }
+	   #contato{
+		    display: flex;
+    width: 100%;
+    background: #409ec3;
+	   }
+	  footer {
+    background-color:#dd9aff; /* Cor de fundo do footer */
+    color: #ffffff; /* Cor do texto */
+    /* Espaçamento interno */
+    text-align: center; /* Centraliza o texto */
+}
+
+.footer-container {
+    display: flex; /* Usa Flexbox para alinhar as seções */
+    justify-content: space-between; /* Espaça as seções igualmente */
+    margin: 0 auto; /* Centraliza o container */
+}
+.footer-info{
+	background:black;
+}
+
+.footer-info, .footer-social {
+    margin: 0 20px; /* Espaçamento lateral */
+	display:block;
+	background:black;
+}
+
+.footer-info h2, .footer-social h2 {
+margin-bottom: 10%;
+    text-align: center;
+    margin-left: 9%;
+}
+
+.address a {
+    color: #61dafb; /* Cor dos links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+.address a:hover {
+    text-decoration: underline; /* Sublinha o link ao passar o mouse */
+}
+
+.socio{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.social-icons  {
+display: block;
+    width: 30px;
+    height: auto;
+    margin-left: 2%;
+}
+.social-icons img {
+	width:90px;
+}
+	address{
+		     margin-left: 11%;
+	}
+.footer-bottom {
+    border-top: 1px solid #444; /* Linha separadora */
+    padding-top: 10px; /* Espaçamento acima da linha */
+    margin-top: 20px; /* Espaçamento acima do rodapé */
+}
+
+.footer-bottom p {
+    font-size: 0.9em; /* Tamanho da fonte menor */
+    color: #cccccc; /* Cor do texto */
+}
+	
