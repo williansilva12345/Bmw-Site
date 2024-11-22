@@ -568,13 +568,11 @@ color:white;
 		  .footer2{
 			  background:#151224;
 		  }
-		  .sobretxt h2{
+		  .sobretxt h2,h1{
 			  color:white;
 			  margin:10px;
 		  }
-			  .sobretxt p {
-				  color:
-			  }
+			
 		  
 .container {
     display:flex;
