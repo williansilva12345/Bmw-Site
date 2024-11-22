@@ -396,7 +396,7 @@ nav a.active {
 
 }
 	 #canal{
-background: linear-gradient(to right, #00c6ff, #0072ff);
+background: linear-gradient(to right, #00c6ff, #0072ff)!important;
 	 }
 
 #sectionmoto{
