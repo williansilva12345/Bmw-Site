@@ -396,7 +396,7 @@ nav a.active {
 
 }
 	 #canal{
-		 background:#030618;
+background: linear-gradient(to right, #00c6ff, #0072ff);
 	 }
 
 #sectionmoto{
@@ -572,13 +572,15 @@ color:white;
 		  
 		  
 .container {
-    display: flex;
+    display:flex;
     flex-wrap: wrap; /* Permite que as divs "quebrem" para a próxima linha */
     gap: 14px; /* Espaçamento entre as divs */
 }
-
+	   .site{
+		   color:white;
+	   }
 .box {
-    flex: 1 1 45%; /* Ocupar cerca de 41% do espaço disponível */
+    flex: 0 0 45%; /* Ocupar cerca de 41% do espaço disponível */
     color: white;
     height: 339px;
 	
