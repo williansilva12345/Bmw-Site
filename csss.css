@@ -396,7 +396,9 @@ nav a.active {
 
 }
 	 #canal{
-background: linear-gradient(to right, #00c6ff, #0072ff)!important;
+background: linear-gradient(to right, #003366, #00d0ff)!important;
+
+
 	 }
 
 #sectionmoto{
@@ -566,11 +568,13 @@ color:white;
 		  .footer2{
 			  background:#151224;
 		  }
-		  .sobretxt h2,h1{
-			  color:blue;
+		  .sobretxt h2{
+			  color:white;
 			  margin:10px;
 		  }
-		  
+			  .sobretxt p {
+				  color:
+			  }
 		  
 .container {
     display:flex;
