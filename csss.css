@@ -904,3 +904,103 @@ color:white;
 	display:none;
 }
 }
+
+@media (max-width: 540px) {
+  .box {
+    margin-left: 5%;
+    flex: 1 1 100%;
+    width: 100%;
+  }
+  .box h1,
+  .box p {
+    margin-right: 0%;
+    margin-left: 0%;
+  }
+}
+
+@media (max-width: 480px) {
+  .box {
+    margin-left: 0%;
+    padding: 10px;
+  }
+  .logo {
+    height: 30%;
+    margin-top: 40%;
+  }
+}
+
+@media (max-width: 400px) {
+  .box {
+    margin-left: 0%;
+    padding: 5px;
+  }
+  .logo {
+    height: 25%;
+    margin-top: 35%;
+  }
+}
+
+@media (max-width: 360px) {
+  .box {
+    margin-left: 0%;
+    padding: 5px;
+  }
+  .logo {
+    height: 20%;
+    margin-top: 30%;
+  }
+}
+
+@media (max-width: 320px) {
+  .box {
+    margin-left: 0%;
+    flex: 1 1 100%;
+    width: 100%;
+  }
+  .logo {
+    height: 15%;
+    margin-top: 25%;
+  }
+}
+	 @media (max-width: 500px) {
+    #footer {
+		  flex-direction:column;
+        align-items: center;
+        text-align: center;
+        gap: 15px; /* Espaço entre os elementos */
+        padding: 15px;
+    }
+	#sobre{
+		height:600px;
+	}
+
+    #footer .redes {
+        justify-content: center;
+        gap: 10px;
+    }
+	  .logo{
+		          height: 18%;
+        margin-top: 194%;
+        margin-left: 50%;
+
+	  }
+	  
+	  #sectionmoto {
+  margin-left: 20px; /* Move a seção para a direita */
+  /* Ou */
+  transform: translateX(20px); /* Desloca 20px para a direita */
+  /* Ajuste conforme necessário */
+}
+
+    #footer .redes img {
+        width: 25px;
+        height: 25px; /* Ícones menores */
+    }
+	   #garanta h1 {
+		   padding:0px;
+	   }
+    .info {
+        font-size: 12px; /* Texto menor no rodapé */
+        padding: 5px;
+    }
+}
