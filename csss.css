@@ -947,6 +947,9 @@ color:white;
     height: 20%;
     margin-top: 30%;
   }
+  #sobre{
+		height:850px;
+	}
 }
 
 @media (max-width: 320px) {
@@ -970,7 +973,7 @@ color:white;
 		
     }
 	#sobre{
-		height:950px;
+		height:850px;
 	}
 
     #footer .redes {
