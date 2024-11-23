@@ -971,7 +971,7 @@ color:white;
         padding: 15px;
     }
 	#sobre{
-		height:600px;
+		height:750px;
 	}
 
     #footer .redes {
@@ -991,13 +991,16 @@ color:white;
   transform: translateX(20px); /* Desloca 20px para a direita */
   /* Ajuste conforme necessário */
 }
-
+  .text1 h1{
+	  font-size:23px;
+  }
     #footer .redes img {
         width: 25px;
         height: 25px; /* Ícones menores */
     }
 	   #garanta h1 {
 		   padding:0px;
+		   font-size:33px;
 	   }
     .info {
         font-size: 12px; /* Texto menor no rodapé */

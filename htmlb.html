@@ -50,7 +50,7 @@
 			<p>Hello wolrd</p>
 		
 		</div>
-<div class="div1">
+<div class="div1" onclick>
 			
 			<p>Hello wolrd</p>
 		
@@ -58,17 +58,24 @@
 
 
     <script>
-		
-		var all = document.querySelectorAll(".div1")
-		
-		all.forEach(element=>{
-			element.addEventListener("click",()=>{
 				
-				element.classList.add("nova")
-			
-			})
-		})
+				
+				
 		
+		function allmen (){
+		
+		 		var all = document.querySelectorAll(".div1")
+
+				all.forEach((element=>{
+				
+					element.addEventListener("click",(el)=>{
+					
+					
+					})
+				
+				})
+}
+
 		
 	</script>
 </body>
