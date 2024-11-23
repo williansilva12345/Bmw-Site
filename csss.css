@@ -36,12 +36,7 @@ background:black;
 
 		transition:all 2s ease-in-out;
 	}
-	   header nav ul li a:hover {
-		
-		color:blue;
-		text-transform:uppercase;
-		letter-spacing:2px;
-	}
+	 
 
 section{
 	
