@@ -923,9 +923,8 @@ color:white;
     margin-left: 0%;
     padding: 10px;
   }
-  .logo {
-    height: 30%;
-    margin-top: 40%;
+   .logo {
+	display:none;
   }
 }
 
@@ -935,8 +934,7 @@ color:white;
     padding: 5px;
   }
   .logo {
-    height: 25%;
-    margin-top: 35%;
+	display:none;
   }
 }
 
@@ -962,16 +960,17 @@ color:white;
     margin-top: 25%;
   }
 }
-	 @media (max-width: 500px) {
+	 @media (max-width: 580px) {
     #footer {
 		  flex-direction:column;
         align-items: center;
         text-align: center;
         gap: 15px; /* Espaço entre os elementos */
         padding: 15px;
+		
     }
 	#sobre{
-		height:750px;
+		height:950px;
 	}
 
     #footer .redes {
@@ -1001,9 +1000,34 @@ color:white;
 	   #garanta h1 {
 		   padding:0px;
 		   font-size:33px;
+		           transform: translateX(-21px) translateY(55px);
 	   }
     .info {
         font-size: 12px; /* Texto menor no rodapé */
         padding: 5px;
     }
+}
+@media (max-width: 552px){
+	
+		.logo{	
+		height: 18%;
+        margin-top: 108%;
+        margin-left: 12%;
+    }
+}
+
+@media (max-width: 579px){
+	
+	.logo{
+		        height: 18%;
+        margin-top: 110%;
+        margin-left: 18%;
+
+	}
+	.logo2{
+		display:none;
+	}
+.box{
+	           margin-left: 0%;
+}
 }
